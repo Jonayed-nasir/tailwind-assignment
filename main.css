@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .nav-link {
+        @apply hover:text-[#F44335] transition-all text-lg;
+    }
+
+
+}
