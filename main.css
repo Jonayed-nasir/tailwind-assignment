@@ -7,5 +7,16 @@
         @apply hover:text-[#F44335] transition-all text-lg;
     }
 
+    .sqr {
+        @apply font-bold text-[#00FF84] md:text-3xl text-sm
+    }
+
+    .hed {
+        @apply text-[#2D3142] text-sm md:text-lg
+    }
+
+    .btn {
+        @apply py-2 px-3 transition-all duration-500 hover:scale-105 text-lg rounded;
+    }
 
 }
