@@ -27,4 +27,8 @@
     .jobs-teg-icon {
         @apply w-[30px] h-[30px] bg-[#fef0ef] hover:bg-[#f9ccc7] transition-all cursor-pointer hover:scale-105 rounded-full flex items-center justify-center
     }
+
+    .course-tag {
+        @apply border border-black rounded-full py-1 px-1.5 md:px-5 text-[#2D3142] hover:bg-[#00FF84] transition-all cursor-pointer text-xs md:text-base
+    }
 }
