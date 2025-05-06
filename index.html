@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="thmlTagt">
 
 <head>
     <meta charset="UTF-8">
@@ -12,10 +12,10 @@
 
 </head>
 
-<body class="bg-[#FAFAFA]">
+<body class="bg-[#FAFAFA] dark:bg-gray-900">
 
     <!-- ==Nav Section========================= -->
-    <header class="bg-white">
+    <header class="bg-white dark:bg-black sticky top-0 z-50">
         <nav class="container mx-auto flex justify-between items-center py-4 px-2 md:px-0">
             <div class="">
                 <img src="image/logo.png" alt="logo" class="w-fit object-contain h-10 md:h-14">
@@ -32,12 +32,12 @@
             <div class="flex items-center  space-x-4">
                 <a href="#">
                     <button
-                        class="bg-[#F44335] text-white md:px-4 md:py-2 px-2 py-1 rounded hover:bg-[#D32F2F] transition-all hover:scale-105 hover:translate-y-1">Register
+                        class="bg-[#F44335]  text-white md:px-4 md:py-2 px-2 py-1 rounded hover:bg-[#D32F2F] transition-all hover:scale-105 hover:translate-y-1">Register
                         Interest</button>
                 </a>
-                <button>
+                <button id="switch">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6 hover:scale-105 transition-all">
+                        stroke="currentColor" class="size-6 hover:scale-105 transition-all dark:stroke-white">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
                     </svg>
@@ -49,19 +49,21 @@
     <!-- ==Hero Section================= -->
     <section class="container mx-auto grid grid-cols-12 pt-10 gap-8 px-3">
         <section class="col-span-12 md:col-span-6 py-2 md:py-4">
-            <p class="text-[#20484F] font-semibold md:text-lg text-xs">Discover <span class="text-red-500 ">-</span>
+            <p class="text-[#20484F] dark:text-white font-semibold md:text-lg text-xs">Discover <span
+                    class="text-red-500 ">-</span>
                 Interact
                 <span class="text-red-500 ">-</span>
                 Engage
                 <span class="text-red-500 ">-</span> Connect
             </p>
 
-            <h1 class="md:text-5xl font-bold text-4xl  pt-2 text-[#072125] ">Google <br>
+            <h1 class="md:text-5xl font-bold text-4xl dark:text-white  pt-2 text-[#072125] ">Google <br>
                 <span class="text-red-500 border-red-500  border-b-[3px] leading-[1.40]">IT Support</span> <br>
                 Certificate
             </h1>
 
-            <p class="text-[#072125] pt-3 md:pt-6 pb-3 md:pb-6">This is your path to a career in IT. In this program,
+            <p class="text-[#072125] dark:text-white  pt-3 md:pt-6 pb-3 md:pb-6">This is your path to a career in IT. In
+                this program,
                 you’ll
                 learn
                 in-demand
@@ -111,10 +113,11 @@
 
 
     <!-- ==company section===================== -->
-    <section class="bg-white py-6 md:py-10">
+    <section class="bg-white dark:bg-gray-800 py-6 md:py-10">
         <div class="container mx-auto flex  items-center  justify-between  px-2 space-x-3">
             <div class=" hidden md:block">
-                <p class="text-xs md:text-sm">Pave your path to career success by gaining a professional <br> Google
+                <p class="text-xs md:text-sm dark:text-white">Pave your path to career success by gaining a professional
+                    <br> Google
                     certificate
                     with
                     the
@@ -148,10 +151,10 @@
     <!-- ==Skills Section================ -->
     <section class="container mx-auto grid grid-cols-12 gap-0 md:gap-8 px-3 pt-4 pb-4">
         <section
-            class="col-span-12 md:col-span-6 py-3 md:py-7 px-3 md:px-5 rounded-lg bg-white shadow-lg mt-6 md:mt-10">
+            class="col-span-12 md:col-span-6 py-3 md:py-7 px-3 md:px-5 rounded-lg bg-white dark:bg-gray-800 shadow-lg mt-6 md:mt-10">
 
             <div class="border-b-2 border-[#F9CCC7]">
-                <h3 class="pb-3 text-sm md:text-lg">What you will learn</h3>
+                <h3 class="pb-3 text-sm md:text-lg dark:text-white">What you will learn</h3>
             </div>
 
             <div class="pt-5 md:pt-10 space-y-10">
@@ -163,7 +166,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Gain skills required to succeed in an entry-level IT job
                     </p>
                 </div>
@@ -175,7 +178,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Learn to perform day-to-day IT support tasks including computer assembly, wireless networking,
                         installing programs, and customer service
                     </p>
@@ -188,7 +191,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Learn how to provide end-to-end customer support, ranging from identifying problems to
                         troubleshooting and debugging
                     </p>
@@ -201,7 +204,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary
                         Code
                     </p>
@@ -212,11 +215,11 @@
 
         <!-- tag section -->
         <section
-            class="col-span-12 md:col-span-6 py-3 md:py-7 px-4 md:px-5 rounded-lg bg-white shadow-lg mt-6 md:mt-10">
+            class="col-span-12 md:col-span-6 py-3 md:py-7 px-4 md:px-5 rounded-lg bg-white dark:bg-gray-800 shadow-lg mt-6 md:mt-10">
             <img src="image/IT_social 1.png" alt="IT Social" class="w-fit object-cover">
 
             <div class="border-b-2 border-[#F9CCC7] ">
-                <h3 class="pb-3 text-sm md:text-lg">Skills you will gain </h3>
+                <h3 class="pb-3 text-sm md:text-lg dark:text-white">Skills you will gain </h3>
             </div>
 
             <div class="py-3 space-y-5 px-1 md:px-6">
@@ -253,10 +256,10 @@
     <!-- Jobs Associated with Certificate Section -->
     <section class="container mx-auto grid grid-cols-12 gap-0 md:gap-8 px-3 pt-6 pb-4">
         <section
-            class="col-span-12 md:col-span-6 py-3 md:py-7 px-3 md:px-5 rounded-lg bg-white shadow-lg mt-6 md:mt-10">
+            class="col-span-12 md:col-span-6 py-3 md:py-7 px-3 md:px-5 rounded-lg bg-white dark:bg-gray-800 shadow-lg mt-6 md:mt-10">
 
             <div class="border-b-2 border-[#F9CCC7]">
-                <h3 class="pb-3 text-sm md:text-lg">Jobs Assocaited with Certificate </h3>
+                <h3 class="pb-3 text-sm md:text-lg dark:text-white">Jobs Assocaited with Certificate </h3>
             </div>
 
             <div class="grid grid-cols-6 gap-4 pt-4 md:pt-8">
@@ -265,31 +268,31 @@
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right "></i>
                         </span>
-                        <p class="text-xs md:text-sm">Database administrator</p>
+                        <p class="text-xs md:text-sm dark:text-white">Database administrator</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right"></i>
                         </span>
-                        <p class="text-xs md:text-sm">Tech support specialist</p>
+                        <p class="text-xs md:text-sm dark:text-white">Tech support specialist</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right"></i>
                         </span>
-                        <p class="text-xs md:text-sm">IT specialist</p>
+                        <p class="text-xs md:text-sm dark:text-white">IT specialist</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right"></i>
                         </span>
-                        <p class="text-xs md:text-sm">Systems analyst</p>
+                        <p class="text-xs md:text-sm dark:text-white">Systems analyst</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right"></i>
                         </span>
-                        <p class="text-xs md:text-sm">Network engineer</p>
+                        <p class="text-xs md:text-sm dark:text-white">Network engineer</p>
                     </div>
                 </div>
 
@@ -298,31 +301,31 @@
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right "></i>
                         </span>
-                        <p class="text-xs md:text-sm">Help desk technician</p>
+                        <p class="text-xs md:text-sm dark:text-white">Help desk technician</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right "></i>
                         </span>
-                        <p class="text-xs md:text-sm">IT support spcialist</p>
+                        <p class="text-xs md:text-sm dark:text-white">IT support spcialist</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right "></i>
                         </span>
-                        <p class="text-xs md:text-sm">IT technician</p>
+                        <p class="text-xs md:text-sm dark:text-white">IT technician</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right "></i>
                         </span>
-                        <p class="text-xs md:text-sm">Computer user specialist</p>
+                        <p class="text-xs md:text-sm dark:text-white">Computer user specialist</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4">
                         <span class="jobs-teg-icon">
                             <i class="fa-solid fa-arrow-right "></i>
                         </span>
-                        <p class="text-xs md:text-sm">IT assitant </p>
+                        <p class="text-xs md:text-sm dark:text-white">IT assitant </p>
                     </div>
                 </div>
             </div>
@@ -335,12 +338,13 @@
     </section>
 
     <!-- ==Courses Section========================= -->
-    <section class="py-12 md:py-20 bg-white mt-12 md:mt-20 ">
+    <section class="py-12 md:py-20 bg-white dark:bg-gray-800 mt-12 md:mt-20 ">
         <div class="container mx-auto px-3 relative border-b-2 border-[#F9CCC7] pb-3 md:pb-10">
             <img src="image/Group238902(1).png" class="absolute md:hidden lg:block block top-0 right-7 md:right-0
                   w-24 md:w-60 -mt-6 -mr-6 z-10" alt="">
 
-            <h1 class="text-base md:text-4xl font-medium md:font-bold text-[#2D3142] pb-5">There are 5 Courses in
+            <h1 class="text-base md:text-4xl font-medium md:font-bold text-[#2D3142] pb-5 dark:text-white">There are 5
+                Courses in
                 this
                 <br>
                 Professional
@@ -360,7 +364,6 @@
     <!-- course About section -->
 
     <section class="course-grid">
-
         <section class="course-col1">
             <p class="text-base text-[#00FF84] font-semibold pb-5">Course 1 </p>
             <h1 class="pt-5 text-white text-5xl leading-[1.40]">Technical <br> Support <br> Fundamentals
@@ -386,7 +389,8 @@
 
         <section class="course-col2">
             <h3 class="text-lg md:text-2xl text-[#F9CCC7]">About this course</h3>
-            <p class="text-xs md:text-base text-[#072125] pt-5">This course is the first of a series that aims to
+            <p class="text-xs md:text-base text-[#072125] pt-5 dark:text-white">This course is the first of a series
+                that aims to
                 prepare
                 you
                 for a
@@ -411,7 +415,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Understand how the binary system works
                     </p>
                 </div>
@@ -423,7 +427,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Learn how applications are created and how they work under the hood of a computer
                     </p>
                 </div>
@@ -435,7 +439,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Utilize common problem-solving methodologies and soft skills in an Information Technology
                         setting
                     </p>
@@ -448,7 +452,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Assemble a computer from scratch
                     </p>
                 </div>
@@ -460,7 +464,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Choose and install an operating system on a computer
                     </p>
                 </div>
@@ -472,7 +476,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 text-sm md:text-base dark:text-white">
                         Understand what the Internet is, how it works, and the impact it has in the modern world
                     </p>
                 </div>
@@ -497,31 +501,30 @@
             <div class="space-y-4 pt-6">
                 <div class="flex items-start gap-3">
                     <span class="information"></span>
-                    <span>Flexible deadlines</span>
+                    <span class="dark:text-white">Flexible deadlines</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Shareable Certificate</span>
+                    <span class="dark:text-white">Shareable Certificate</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>100% online</span>
+                    <span class="dark:text-white">100% online</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Beginner Level</span>
+                    <span class="dark:text-white">Beginner Level</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Approx. 20 hours to complete</span>
+                    <span class="dark:text-white">Approx. 20 hours to complete</span>
                 </div>
             </div>
         </section>
-
     </section>
 
 
@@ -530,7 +533,6 @@
     <div class="flex justify-center py-0 md:py-20 lg:py-0 ">
         <img src="image/Connector Vector (3).png" class="w-fit flex lg:flex md:hidden" alt="">
     </div>
-
 
     <!-- course 2 section -->
 
@@ -561,7 +563,8 @@
 
         <section class="course-col2">
             <h3 class="text-lg md:text-2xl text-[#F9CCC7]">About this course</h3>
-            <p class="text-xs md:text-base text-[#072125] pt-5">This course is the first of a series that aims to
+            <p class="text-xs md:text-base text-[#072125] pt-5 dark:text-white">This course is the first of a series
+                that aims to
                 prepare
                 you
                 for a
@@ -586,7 +589,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand how the binary system works
                     </p>
                 </div>
@@ -598,7 +601,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Learn how applications are created and how they work under the hood of a computer
                     </p>
                 </div>
@@ -610,7 +613,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Utilize common problem-solving methodologies and soft skills in an Information Technology
                         setting
                     </p>
@@ -623,7 +626,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Assemble a computer from scratch
                     </p>
                 </div>
@@ -635,7 +638,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Choose and install an operating system on a computer
                     </p>
                 </div>
@@ -647,7 +650,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand what the Internet is, how it works, and the impact it has in the modern world
                     </p>
                 </div>
@@ -672,27 +675,27 @@
             <div class="space-y-4 pt-6">
                 <div class="flex items-start gap-3">
                     <span class="information"></span>
-                    <span>Flexible deadlines</span>
+                    <span class=" dark:text-white">Flexible deadlines</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Shareable Certificate</span>
+                    <span class="dark:text-white">Shareable Certificate</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>100% online</span>
+                    <span class="dark:text-white">100% online</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Beginner Level</span>
+                    <span class="dark:text-white">Beginner Level</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Approx. 20 hours to complete</span>
+                    <span class="dark:text-white">Approx. 20 hours to complete</span>
                 </div>
             </div>
         </section>
@@ -737,7 +740,8 @@
 
         <section class="course-col2">
             <h3 class="text-lg md:text-2xl text-[#F9CCC7]">About this course</h3>
-            <p class="text-xs md:text-base text-[#072125] pt-5">This course is the first of a series that aims to
+            <p class="text-xs md:text-base dark:text-white text-[#072125] pt-5">This course is the first of a series
+                that aims to
                 prepare
                 you
                 for a
@@ -762,7 +766,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand how the binary system works
                     </p>
                 </div>
@@ -774,7 +778,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Learn how applications are created and how they work under the hood of a computer
                     </p>
                 </div>
@@ -786,7 +790,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Utilize common problem-solving methodologies and soft skills in an Information Technology
                         setting
                     </p>
@@ -799,7 +803,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Assemble a computer from scratch
                     </p>
                 </div>
@@ -811,7 +815,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Choose and install an operating system on a computer
                     </p>
                 </div>
@@ -823,7 +827,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand what the Internet is, how it works, and the impact it has in the modern world
                     </p>
                 </div>
@@ -848,27 +852,27 @@
             <div class="space-y-4 pt-6">
                 <div class="flex items-start gap-3">
                     <span class="information"></span>
-                    <span>Flexible deadlines</span>
+                    <span class="dark:text-white">Flexible deadlines</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Shareable Certificate</span>
+                    <span class="dark:text-white">Shareable Certificate</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>100% online</span>
+                    <span class="dark:text-white">100% online</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Beginner Level</span>
+                    <span class="dark:text-white">Beginner Level</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Approx. 20 hours to complete</span>
+                    <span class="dark:text-white">Approx. 20 hours to complete</span>
                 </div>
             </div>
         </section>
@@ -881,7 +885,6 @@
     <div class="flex justify-center py-0 md:py-20 lg:py-0 ">
         <img src="image/Connector Vector (2).png" class="w-fit flex lg:flex md:hidden" alt="">
     </div>
-
 
     <!-- course 4 section -->
 
@@ -912,7 +915,8 @@
 
         <section class="course-col2">
             <h3 class="text-lg md:text-2xl text-[#F9CCC7]">About this course</h3>
-            <p class="text-xs md:text-base text-[#072125] pt-5">This course is the first of a series that aims to
+            <p class="text-xs md:text-base dark:text-white text-[#072125] pt-5">This course is the first of a series
+                that aims to
                 prepare
                 you
                 for a
@@ -937,7 +941,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand how the binary system works
                     </p>
                 </div>
@@ -949,7 +953,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Learn how applications are created and how they work under the hood of a computer
                     </p>
                 </div>
@@ -961,7 +965,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Utilize common problem-solving methodologies and soft skills in an Information Technology
                         setting
                     </p>
@@ -974,7 +978,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Assemble a computer from scratch
                     </p>
                 </div>
@@ -986,7 +990,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Choose and install an operating system on a computer
                     </p>
                 </div>
@@ -998,7 +1002,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand what the Internet is, how it works, and the impact it has in the modern world
                     </p>
                 </div>
@@ -1023,27 +1027,27 @@
             <div class="space-y-4 pt-6">
                 <div class="flex items-start gap-3">
                     <span class="information"></span>
-                    <span>Flexible deadlines</span>
+                    <span class="dark:text-white">Flexible deadlines</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Shareable Certificate</span>
+                    <span class="dark:text-white">Shareable Certificate</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>100% online</span>
+                    <span class="dark:text-white">100% online</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Beginner Level</span>
+                    <span class="dark:text-white">Beginner Level</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Approx. 20 hours to complete</span>
+                    <span class="dark:text-white">Approx. 20 hours to complete</span>
                 </div>
             </div>
         </section>
@@ -1055,7 +1059,6 @@
     <div class="flex justify-center py-0 md:py-20 lg:py-0 ">
         <img src="image/Connector Vector (3).png" class="w-fit flex lg:flex md:hidden" alt="">
     </div>
-
 
     <!-- course 5 section -->
 
@@ -1086,7 +1089,8 @@
 
         <section class="course-col2">
             <h3 class="text-lg md:text-2xl text-[#F9CCC7]">About this course</h3>
-            <p class="text-xs md:text-base text-[#072125] pt-5">This course is the first of a series that aims to
+            <p class="text-xs md:text-base dark:text-white text-[#072125] pt-5">This course is the first of a series
+                that aims to
                 prepare
                 you
                 for a
@@ -1111,7 +1115,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand how the binary system works
                     </p>
                 </div>
@@ -1123,7 +1127,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Learn how applications are created and how they work under the hood of a computer
                     </p>
                 </div>
@@ -1135,7 +1139,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Utilize common problem-solving methodologies and soft skills in an Information Technology
                         setting
                     </p>
@@ -1148,7 +1152,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Assemble a computer from scratch
                     </p>
                 </div>
@@ -1160,7 +1164,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Choose and install an operating system on a computer
                     </p>
                 </div>
@@ -1172,7 +1176,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <p class="text-gray-800 text-sm md:text-base">
+                    <p class="text-gray-800 dark:text-white text-sm md:text-base">
                         Understand what the Internet is, how it works, and the impact it has in the modern world
                     </p>
                 </div>
@@ -1197,27 +1201,27 @@
             <div class="space-y-4 pt-6">
                 <div class="flex items-start gap-3">
                     <span class="information"></span>
-                    <span>Flexible deadlines</span>
+                    <span class="dark:text-white">Flexible deadlines</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Shareable Certificate</span>
+                    <span class="dark:text-white">Shareable Certificate</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>100% online</span>
+                    <span class="dark:text-white">100% online</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Beginner Level</span>
+                    <span class="dark:text-white">Beginner Level</span>
                 </div>
 
                 <div class="flex items-start  gap-3">
                     <span class="information"></span>
-                    <span>Approx. 20 hours to complete</span>
+                    <span class="dark:text-white">Approx. 20 hours to complete</span>
                 </div>
             </div>
         </section>
@@ -1227,9 +1231,10 @@
     <!-- ==upskilling section======================== -->
     <section
         class="pt-20  md:pt-52 mt-2 md:mt-52 bg-[url('image/brooke-cagle.png')]  bg-no-repeat bg-cover w-full h-[400px]  md:h-[600px]">
-        <div class="p-5 bg-white md:w-[500px] rounded-lg container mx-auto">
+        <div class="p-5 bg-white dark:bg-gray-800 md:w-[500px] rounded-lg container mx-auto">
             <img src="image/“ (1).png" class="w-fit pb-3" alt="">
-            <h2 class="font-semibold text-lg pb-3 text-[#072125]">I worked in retail and needed to make a change. The
+            <h2 class="font-semibold text-lg pb-3 text-[#072125] dark:text-white">I worked in retail and needed to make
+                a change. The
                 certificate is
                 really
                 designed
@@ -1246,11 +1251,11 @@
     </section>
 
     <!-- footer section -->
-    <footer class="bg-white px-3 py-10">
+    <footer class="bg-white dark:bg-gray-900 px-3 py-10">
         <div class="container grid md:grid-cols-5 grid-cols-2  mx-auto space-y-5 mb-3">
-            <div class="">
+            <div class=" ">
                 <img src="image/logo.png" class="w-fit" alt="">
-                <p class="text-[#20484F] pt-3">
+                <p class="text-[#20484F] pt-3 dark:text-white">
                     Level39 <br>
                     One Canada Square, <br>
                     Canary Wharf, <br>
@@ -1259,8 +1264,8 @@
                 </p>
             </div>
             <div class="">
-                <h3 class="text-[#20484F] pb-4 text-2xl">Home</h3>
-                <ul class="space-y-3">
+                <h3 class="text-[#20484F] pb-4 text-2xl dark:text-gray-400">Home</h3>
+                <ul class="space-y-3 dark:text-white">
                     <li><a href="#">Collaborations</a></li>
                     <li><a href="#">Statistics</a></li>
                     <li><a href="#">How It Works </a></li>
@@ -1269,8 +1274,8 @@
             </div>
 
             <div class="">
-                <h3 class="text-[#20484F] pb-4 text-2xl">About Us</h3>
-                <ul class="space-y-3">
+                <h3 class="text-[#20484F] pb-4 text-2xl dark:text-gray-400">About Us</h3>
+                <ul class="space-y-3  dark:text-white">
                     <li><a href="#">Who We Are</a></li>
                     <li><a href="#">Mission statement </a></li>
                     <li><a href="#">Our Vision </a></li>
@@ -1279,8 +1284,8 @@
             </div>
 
             <div class="">
-                <h3 class="text-[#20484F] pb-4 text-2xl">Upskill</h3>
-                <ul class="space-y-3">
+                <h3 class="text-[#20484F] pb-4 text-2xl dark:text-gray-400">Upskill</h3>
+                <ul class="space-y-3 dark:text-white">
                     <li><a href="#">It Support </a></li>
                     <li><a href="#">Project Managment </a></li>
                     <li><a href="#">Data Analysts</a></li>
@@ -1289,8 +1294,8 @@
             </div>
 
             <div class="">
-                <h3 class="text-[#20484F] pb-4 text-2xl">Contact Us </h3>
-                <ul class="space-y-3">
+                <h3 class="text-[#20484F] pb-4 text-2xl dark:text-gray-400">Contact Us </h3>
+                <ul class="space-y-3 dark:text-white">
                     <li><a href="#">Your message </a></li>
                     <li><a href="#">Email </a></li>
                     <li><a href="#">Phone number </a></li>
@@ -1299,10 +1304,23 @@
             </div>
         </div>
         <!-- footer bottom -->
-        <div class="py-4 border-t-2 border-[#20484F1A] ">
-            <p class="text-[#20484F] text-center">Copyright 2022 Creatives For You LTD</p>
+        <div class="py-4 border-t-2 border-[#20484F1A] dark:border-gray-600 ">
+            <p class="text-[#20484F] text-center dark:text-white">Copyright 2022 Creatives For You LTD</p>
         </div>
     </footer>
+
+
+
+    <script>
+        const thmlTagt = document.getElementById('thmlTagt');
+        const switchButton = document.getElementById('switch');
+        switchButton.addEventListener('click', () => {
+            thmlTagt.classList.toggle('dark');
+        });
+        // Add additional functionality if needed
+        // Example: console.log('Theme toggled');
+    </script>
+
 
 </body>
 
